@@ -9,7 +9,7 @@ const FeatureCard = ({ feature: { id, icon, title, content }, index }) => {
       } feature-card`}
       key={id}
     >
-      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter}`}>
+      <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
         <img src={icon} alt="app__feature-icon" className="w-[50%] h-[50%]" />
       </div>
       <div className={`app__feature-image_card_content flex-1 flex-col ml-3`}>
