@@ -30,7 +30,7 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } py-6 px-10 bg-black-gradient absolute top-20 r-0 mx-4 my-2 min-w[140px] rounded-xl sidebar`}
+          } py-6 px-10 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] rounded-xl sidebar`}
         >
           <ul className="app__navbar-links list-none flex flex-col justify-end items-center  flex-1">
             {navLinks.map((nav, index) => (
