@@ -5,7 +5,7 @@ import FeedbackCard from "./FeedbackCard";
 const Testimonials = () => {
   return (
     <section
-      className={`app__testimonials${styles.paddingY} ${styles.flexCenter}  flex-col relative`}
+      className={`app__testimonials ${styles.paddingY} ${styles.flexCenter}  flex-col relative`}
       id="client"
     >
       <div className="w-full absolute z-[0] w-[60%] h-[50%] -right-[50%] rounded-full blue__gradient" />
